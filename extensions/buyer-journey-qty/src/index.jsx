@@ -78,8 +78,7 @@ function App() {
   });
 
   function isQtyOK() {
-    const qty_max = 2;
-    return qty <= qty_max;
+    return qty <= 2;
   }
   function isNotForSale() {
     return not_for_sale;
